@@ -65,13 +65,21 @@ article
     h1,h2
       font-size font-size+80
       line-height 1.2em
-      padding-bottom 0.3em
-      margin-top 1.5em
-      border-bottom 2px solid lighten(color-gray,30%)
-    h3
+      padding-top 0.3em
+      margin-top 1.3em
+      border-top 2px solid lighten(color-gray,30%)
+      &:before
+        content url("http://7xrqfg.com1.z0.glb.clouddn.com/sec.png")
+
+    h3 
       font-size font-size+60  //+40
       line-height 1.2em  //1.1em
       margin-top 1.4em  //1.3em
+      padding-top 0.3em
+      border-top 2px solid lighten(color-gray,20%)
+      &:before
+        content url("http://7xrqfg.com1.z0.glb.clouddn.com/sec.png")
+
     h4,h5,h6
       font-size font-size+40
       padding-bottom 0em
@@ -80,13 +88,14 @@ article
       font-smoothing antialiased
       font-weight bold
       >code
-        color darken(color-gray,20%)
+        color darken(color-background,20%)
     hr 
       border 1px solid lighten(color-gray,30%)
     strong
       font-weight bold
     em
       font-style italic
+      color color-background
     acronym,abbr
       border-bottom 1px dotted
     blockquote
@@ -181,6 +190,7 @@ article
         margin-top 0
     table
       max-width 100%
+      width 100%
       border-collapse collapse
       border-spacing 0
       margin-top: 1em

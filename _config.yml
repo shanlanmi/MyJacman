@@ -15,7 +15,7 @@ widgets:
   #- github-card
 - category
 - tag
-- links
+  #- links
 - douban
   #- rss
   #- weibo
